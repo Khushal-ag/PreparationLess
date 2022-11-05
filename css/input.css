@@ -16,16 +16,62 @@ a:hover{
     color:var(--main-color);
 }
 img{
- min-width: 100%;   
+ max-width: 100%;   
 }
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
+/* buttons */
+.btn-theme{
+    background-color: var(--main-color);
+    color:var(--WIHTE);
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}
+.btn-theme:hover{
+    color:var(--WIHTE);
+    background-color: var(--button-hover-color);
+}
+.btn-theme:focus{
+    box-shadow: 0 0 8px var(--main-color);
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:var(--black-90);
+    line-height: 1.3;
+}
 ::selection{
     color: var(--WIHTE);
     background-color: var(--main-color);
+}
+
+.circular-img{
+    max-width: 360px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+.circular-img-inner{
+    text-align: center;
+    border-radius: 0 0 180px 180px;
+    overflow: hidden;
+}
+.circular-img-circle{
+   height:360px;
+   width: 360px;
+   left: 0;
+   bottom: 0;
+   border-radius: 50%;
+}
+.circular-img img{
+    position: relative;
+    z-index: 1;
 }
 
 /* header */
@@ -97,3 +143,31 @@ position: relative;
 .heder-backdrop, .header-close-btn, .header-hamburger-btn{
     display: none;
 }
+
+/* customized bootstrap classes */
+.container{
+    --bs-gutter-x:15px;
+    min-width: 1140px;
+}
+
+.row{
+    --bs-greater-x:30px;
+
+}
+/* banner section */
+.banner-section{
+    padding: 80px 0;
+    min-height: 680px;
+}
+.banner-text h2{
+    font-size: 20px;
+    color: var(--main-color);
+}
+.banner-text h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.banner-section .circular-img-circle{
+    background-color: var(--red-light);
+}
+
