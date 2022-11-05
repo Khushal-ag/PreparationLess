@@ -3,13 +3,9 @@
 ![View Counter](https://komarev.com/ghpvc/?username=PreparationLess&label=View%20Counter&color=red&style=flat) &nbsp; &nbsp; ![Repo Size](https://img.shields.io/github/repo-size/Khushal-ag/PreparationLess?color=blue)
 
 # PreparationLess
-
-<div align=center>
-
 ## Problem Statement
 
 There is no such platform that provide content for university level and school level at a single portal. Only popular competitive exams like UPSC JEE, NEET, boards have their own specific platform. Thereby it provide them with a single portal for whatever exam or course they want to study or prepapre and stop wasting their precious time during exams. Also we come up with a reward system for those who contribute in providing contents for other students.
-
 
 ### Team Members
 
