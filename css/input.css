@@ -184,7 +184,7 @@ position: relative;
 .fun-facts-item h2{
     font-weight: 700;
     font-size: 30px;
-    text-transform: uppercase;
+    text-transform: uppercase ;
 }
 .fun-facts-item p{
     margin: 0;
