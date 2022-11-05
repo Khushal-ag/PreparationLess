@@ -1,129 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title> Courses </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/font-awesome.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/input.css">
-  <link rel="stylesheet" class="js-color-style" href="css/colors/color-1.css">
-</head>
-<body>
+  <head>
+    <title>Courses</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/input.css" />
+    <link
+      rel="stylesheet"
+      class="js-color-style"
+      href="css/colors/color-1.css"
+    />
+  </head>
+  <body>
     <!-- main wrapper starts -->
     <div class="main-wrapper">
-        <!-- header start -->
-        <header class="header">
-    <div class="container">
-      <div class="header-main d-flex justify-content-between align-items-center">
-        <div class="header-logo ">
-          <a href="index.html">preparation<span> less</span></a>
+      <!-- header start -->
+      <header class="header">
+        <div class="container">
+          <div
+            class="header-main d-flex justify-content-between align-items-center"
+          >
+            <div class="header-logo">
+              <a href="index.html">preparation<span> less</span></a>
+            </div>
+            <button
+              type="button"
+              class="header-hamburger-btn js-header-menu-toggler"
+            >
+              <span></span>
+            </button>
+            <div class="header-backdrop js-header-backdrop"></div>
+            <nav class="header-menu js-header-menu">
+              <button
+                type="button"
+                class="header-close-btn js-header-menu-toggler"
+              >
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="menu">
+                <li class="menu-item"><a href="index.html">home</a></li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="" class="js-toggle-sub-menu"
+                    >courses <i class="fas fa-chevron-down"></i
+                  ></a>
+                  <ul class="sub-menu js-sub-menu">
+                    <li class="sub-menu-item">
+                      <a href="courses.html">courses</a>
+                    </li>
+                    <li class="sub-menu-item">
+                      <a href="courses-details.html">course details</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="#" class="js-toggle-sub-menu"
+                    >pages <i class="fas fa-chevron-down"></i
+                  ></a>
+                  <ul class="sub-menu js-sub-menu">
+                    <li class="sub-menu-item">
+                      <a href="log-in.html">log in </a>
+                    </li>
+                    <li class="sub-menu-item">
+                      <a href="sign-up.html">sign up</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item"><a href="">contact</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <button type="button" class="header-hamburger-btn js-header-menu-toggler">
-          <span></span>
-        </button>
-        <div class="header-backdrop js-header-backdrop"></div>
-        <nav class="header-menu js-header-menu ">
-          <button type="button" class="header-close-btn js-header-menu-toggler">
-            <i class="fas fa-times"></i>
-          </button>
-          <ul class="menu">
-            <li class="menu-item"><a href="index.html">home</a></li>
-            <li class="menu-item menu-item-has-children">
-              <a href="" class="js-toggle-sub-menu">courses <i class="fas fa-chevron-down"></i></a>
-            <ul class="sub-menu js-sub-menu" >
-              <li class="sub-menu-item"><a href="courses.html">courses</a></li>
-              <li class="sub-menu-item"> <a href="courses-details.html">course details</a> </li>
-            </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" class="js-toggle-sub-menu">pages <i class="fas fa-chevron-down"></i></a>
-            <ul class="sub-menu js-sub-menu">
-                <li class="sub-menu-item"><a href="log-in.html">log in </a></li>
-                <li class="sub-menu-item"><a href="sign-up.html">sign up</a></li>
-            </ul>
-          </li>
-            <li class="menu-item"><a href="">contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>  
+      </header>
 
-        <!-- header end -->
-        <!-- breadcrumb start -->
-        <div class="breadcrumb-nav">
-            <div class="container">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb mb-0">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">courses</li>
-                    </ol>
-                </nav>
-            </div>
+      <!-- header end -->
+      <!-- breadcrumb start -->
+      <div class="breadcrumb-nav">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                courses
+              </li>
+            </ol>
+          </nav>
         </div>
-        <!-- breadcrumb end -->
-        <!-- courses section start -->
-        
-        <!-- courses section end -->
-        <!-- footer start -->
-        <footer class="footer">
-          <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="footer-item">
-                            <h3 class="footer-logo">
-                                <span>preparationLess</span>
-                            </h3>
-                            <ul>
-                                <li><a href="#">About</a><a href="#">What we offer</a><a href="#">Careers</a><a href="">Reach Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="footer-item">
-                            <h3>
-                                learning
-                            </h3>
-                            <ul>
-                                <li><a href="#">Get the subscription</a><a href="#">testimonials</a><a href="#">faq</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="footer-item">
-                            <h3>more</h3>
-                            <ul>
-                                <li><a href="#">Affiliates</a><a href="#">Become a contributor</a><a href="#">free trial</a><a href="#">help and support</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="footer-item">
-                            <h3>get in touch</h3>
-                            <ul>
-                                <li>
-                                    <a href="#"><i class="fab fa-brands fa-github"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin social-icon"></i></a>
-                                    <a href="#"><i class="fab fa-instagram social-icon"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>  
-          <div class="footer-bottom">
-            <div class="container">
-                <p class="m-0 py-4 text-center">Copyright &copy;2022 The WebBrute</p>
+      </div>
+      <!-- breadcrumb end -->
+      <!-- courses section start -->
+      <section class="course-section section-padding">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="section-title text-center">
+                <h2 class="title">our courses</h2>
+                <p class="sub-title">Find the right material for you</p>
+              </div>
             </div>
           </div>
-        </footer>
-        <!-- footer end -->
+          <div class="row">
+            <div class="col-12">
+              <nav>
+                <div
+                  class="nav nav-tabs border-0 justify-content-center mb-4"
+                  id="nav-tab"
+                  role="tablist"
+                >
+                  <button
+                    class="nav-link active"
+                    id="institution-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#institution"
+                    type="button"
+                    role="tab"
+                    aria-controls="institution"
+                    aria-selected="true"
+                  >
+                    Institutions
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="course-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#course"
+                    type="button"
+                    role="tab"
+                    aria-controls="course"
+                    aria-selected="false"
+                  >
+                    Courses
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="Subject-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#subjects"
+                    type="button"
+                    role="tab"
+                    aria-controls="subject"
+                    aria-selected="false"
+                  >
+                    Subjects
+                  </button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="institution"
+                  role="tabpanel"
+                  aria-labelledby="institution-tab"
+                >
+                  Institutions
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="Course"
+                  role="tabpanel"
+                  aria-labelledby="course-tab"
+                >
+                  Courses
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="subject"
+                  role="tabpanel"
+                  aria-labelledby="subject-tab"
+                >
+                  Subjects
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12"></div>
+          </div>
+        </div>
+      </section>
+      <!-- courses section end -->
+      <!-- footer start -->
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-lg-3">
+                <div class="footer-item">
+                  <h3 class="footer-logo">
+                    <span>preparationLess</span>
+                  </h3>
+                  <ul> 
+                    <li>
+                      <a href="#">About</a><a href="#">What we offer</a
+                      ><a href="#">Careers</a><a href="">Reach Us</a>
+                    </li>
+                  </ul>
+                </div>   
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="footer-item">
+                  <h3>learning</h3>
+                  <ul>
+                    <li>
+                      <a href="#">Get the subscription</a
+                      ><a href="#">testimonials</a><a href="#">faq</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="footer-item">
+                  <h3>more</h3>
+                  <ul>
+                    <li>
+                      <a href="#">Affiliates</a
+                      ><a href="#">Become a contributor</a
+                      ><a href="#">free trial</a
+                      ><a href="#">help and support</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="footer-item">
+                  <h3>get in touch</h3>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fab fa-brands fa-github"></i></a>
+                      <a href="#"
+                        ><i class="fab fa-linkedin social-icon"></i
+                      ></a>
+                      <a href="#"
+                        ><i class="fab fa-instagram social-icon"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <p class="m-0 py-4 text-center">
+              Copyright &copy;2022 The WebBrute
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
     </div>
     <!-- main wrapper end -->
-<script src="js/bootstrap.bundle.min.js"></script>  
-<script src="js/main.js"></script>
-</body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
