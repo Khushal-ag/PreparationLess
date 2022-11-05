@@ -1,61 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title> Twstudy </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/font-awesome.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/input.css">
-  <link rel="stylesheet" class="js-color-style" href="css/colors/color-1.css">
-</head>
-<body>
-
-  <!-- Main wrapper starts -->
-  <div class="main-wrapper">
-  <!-- Header starts-->
-  <header class="header">
-    <div class="container">
-      <div class="header-main d-flex justify-content-between align-items-center">
-        <div class="header-logo ">
-          <a href="index.html">preparation<span> less</span></a>
+  <head>
+    <title>Twstudy</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/input.css" />
+    <link
+      rel="stylesheet"
+      class="js-color-style"
+      href="css/colors/color-1.css"
+    />
+  </head>
+  <body>
+    <!-- Main wrapper starts -->
+    <div class="main-wrapper">
+      <!-- Header starts-->
+      <header class="header">
+        <div class="container">
+          <div
+            class="header-main d-flex justify-content-between align-items-center"
+          >
+            <div class="header-logo">
+              <a href="index.html">preparation<span> less</span></a>
+            </div>
+            <button
+              type="button"
+              class="header-hamburger-btn js-header-menu-toggler"
+            >
+              <span></span>
+            </button>
+            <div class="header-backdrop js-header-backdrop"></div>
+            <nav class="header-menu js-header-menu">
+              <button
+                type="button"
+                class="header-close-btn js-header-menu-toggler"
+              >
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="menu">
+                <li class="menu-item"><a href="index.html">home</a></li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="" class="js-toggle-sub-menu"
+                    >courses <i class="fas fa-chevron-down"></i
+                  ></a>
+                  <ul class="sub-menu js-sub-menu">
+                    <li class="sub-menu-item">
+                      <a href="courses.html">courses</a>
+                    </li>
+                    <li class="sub-menu-item">
+                      <a href="courses-details.html">course details</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="#" class="js-toggle-sub-menu"
+                    >pages <i class="fas fa-chevron-down"></i
+                  ></a>
+                  <ul class="sub-menu js-sub-menu">
+                    <li class="sub-menu-item">
+                      <a href="log-in.html">log in </a>
+                    </li>
+                    <li class="sub-menu-item">
+                      <a href="sign-up.html">sign up</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item"><a href="">contact</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <button type="button" class="header-hamburger-btn js-header-menu-toggler">
-          <span></span>
-        </button>
-        <div class="header-backdrop js-header-backdrop"></div>
-        <nav class="header-menu js-header-menu ">
-          <button type="button" class="header-close-btn js-header-menu-toggler">
-            <i class="fas fa-times"></i>
-          </button>
-          <ul class="menu">
-            <li class="menu-item"><a href="index.html">home</a></li>
-            <li class="menu-item menu-item-has-children">
-              <a href="" class="js-toggle-sub-menu">courses <i class="fas fa-chevron-down"></i></a>
-            <ul class="sub-menu js-sub-menu" >
-              <li class="sub-menu-item"><a href="courses.html">courses</a></li>
-              <li class="sub-menu-item"> <a href="courses-details.html">course details</a> </li>
-            </ul>
-            </li>
-            <li class="menu-item menu-item-has-children">
-              <a href="#" class="js-toggle-sub-menu">pages <i class="fas fa-chevron-down"></i></a>
-            <ul class="sub-menu js-sub-menu">
-                <li class="sub-menu-item"><a href="log-in.html">log in </a></li>
-                <li class="sub-menu-item"><a href="sign-up.html">sign up</a></li>
-            </ul>
-          </li>
-            <li class="menu-item"><a href="">contact</a></li>
-          </ul>
-        </nav>
-      </div>
+      </header>
+      <!-- Header ends -->
+
+      <!-- banner section starts -->
+      <section class="banner-section d-flex align-items-center">
+        <div class="container ">
+          <div class="row align-items-center">
+            <div class="col-md-6 ">
+              <div class="banner-text">
+                <h2 class="mb-3">An investment in knowledge pays the best interest.</h2>
+                <h1 class="mb-3 text-capitalize">best online platform for learning.</h1>
+                <p class="mb-4">
+                  Education is the passport to the future, for tomorrow belongs
+                  to those who prepare for it today.” —Malcolm X.
+                </p>
+                <a href="#" class="btn btn-theme">join free</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="banner-img">
+                  <div class="circular-img">
+                    <div class="circular-img-inner">
+                      <div class="circular-img-circle">
+                         <img src="img/banner-img.png" alt="banner img" >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      <!-- banner section ends -->
     </div>
-  </header>  
+    <!-- Main wrapper ends -->
 
-<!-- Header ends -->
-</div>
- <!-- Main wrapper ends -->
-
-<script src="js/bootstrap.bundle.min.js"></script>  
-<script src="js/main.js"></script>
-</body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
