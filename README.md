@@ -1,6 +1,7 @@
 <div align = center>
 
 ![View Counter](https://komarev.com/ghpvc/?username=PreparationLess&label=View%20Counter&color=red&style=flat) &nbsp; &nbsp; ![Repo Size](https://img.shields.io/github/repo-size/Khushal-ag/PreparationLess?color=blue)
+</div>
 
 # PreparationLess
 ## Problem Statement
@@ -28,7 +29,6 @@ There is no such platform that provide content for university level and school l
 
 <a href="https://github.com/Khushal-ag/PreparationLess/graphs/contributors" target="blank"> <img src="https://contrib.rocks/image?repo=Khushal-ag/PreparationLess&max=500" /></a>
 
-</div>
 
 <!----------------------------------{ Links }--------------------------------->
 
