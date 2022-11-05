@@ -12,19 +12,47 @@
 <body>
 
   <!-- Main wrapper starts -->
+  <div class="main-wrapper">
   <!-- Header starts-->
   <header class="header">
     <div class="container">
-      <div class="header-main">
-        <div class="header-logo">
-          <a href="index.html"><span>preparation less</span></a>
+      <div class="header-main d-flex justify-content-between align-items-center">
+        <div class="header-logo ">
+          <a href="index.html">preparation<span> less</span></a>
         </div>
-        <button type="button" class="header-hamburger-btn js-header-menu-toggler"></button>
+        <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+          <span></span>
+        </button>
+        <div class="header-backdrop js-header-backdrop"></div>
+        <nav class="header-menu js-header-menu ">
+          <button type="button" class="header-close-btn js-header-menu-toggler">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu">
+            <li class="menu-item"><a href="index.html">home</a></li>
+            <li class="menu-item menu-item-has-children">
+              <a href="" class="js-toggle-sub-menu">courses <i class="fas fa-chevron-down"></i></a>
+            <ul class="sub-menu js-sub-menu" >
+              <li class="sub-menu-item"><a href="courses.html">courses</a></li>
+              <li class="sub-menu-item"> <a href="courses-details.html">course details</a> </li>
+            </ul>
+            </li>
+            <li class="menu-item menu-item-has-children">
+              <a href="#" class="js-toggle-sub-menu">pages <i class="fas fa-chevron-down"></i></a>
+            <ul class="sub-menu js-sub-menu">
+                <li class="sub-menu-item"><a href="log-in.html">log in </a></li>
+                <li class="sub-menu-item"><a href="sign-up.html">sign up</a></li>
+            </ul>
+          </li>
+            <li class="menu-item"><a href="">contact</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>  
 
 <!-- Header ends -->
+</div>
  <!-- Main wrapper ends -->
 
 <script src="js/bootstrap.bundle.min.js"></script>  
