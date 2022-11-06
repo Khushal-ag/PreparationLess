@@ -6,7 +6,11 @@
 # PreparationLess
 ## Problem Statement
 
-There is no such platform that provide content for university level and school level at a single portal. Only popular competitive exams like UPSC JEE, NEET, boards have their own specific platform. Thereby it provide them with a single portal for whatever exam or course they want to study or prepapre and stop wasting their precious time during exams. Also we come up with a reward system for those who contribute in providing contents for other students.
+There is no such platform that provide content for university level and school level at a single portal. Only popular competitive exams like UPSC JEE, NEET, boards have their own specific platform. So they have to waste their precious time to search over the internet to find the releavent content they want.
+
+## Solution
+
+Thereby we came up with a solution to provide them with a single portal for whatever exam or course they want to study or prepare and stop wasting their precious time during exams. Also we come up with a reward system for those who contribute in providing contents for other students. So that their hard work won't go unnoticed.
 
 ### Team Members
 
