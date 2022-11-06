@@ -86,6 +86,10 @@ h3{
 
 /* header */
 .header{
+    background-color: var(--white);
+    position: sticky;
+    top:0;
+    z-index: 3;
     border-bottom: 1px solid var(--border-color-2);
 }
 .header-logo a{
